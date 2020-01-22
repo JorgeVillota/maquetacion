@@ -1,8 +1,230 @@
-.navegador{
-    border: 1px solid #d23aec;   
+*{ 
+    margin: auto;
+    padding: 0;
+    outline: 0;
+}
+html,body {
+    overflow:auto ;
+    margin: 0.5em auto;
+    padding: 0.5em;
+   
+ }
+
+#cabeza {
+    height: 100px;
+    width: 100%;
+    position: relative;            
+    margin: 0,5em;
+ 
+ }
+ 
+#logo {
+     height: 150%;
+     width: 0%;
+     background-color: #d0cece;
+     float:left;               
+     margin: 0,5em;
+     position:fixed;        
+ }
+
+#menu{
+      height: 150%;
+      width: 100%;
+      background-color: #d0cece;
+      float: right;           
+      margin: 0,5em;         
+ }
+
+ #cuerpo{
+    padding: 16px;
+    margin-top: 30px;
+    height: 900px;
+ }
+
+ #izquierda{
+    height: 150px;
+    width: 186px;
+    float: left;
+    background-color:#000066;
+    border-radius: 1em;
+    margin: 1em;
+ }
+
+ #centro{
+    height: 150px;
+    width: 61%;
+    float: left;
+    background-color:#00FFFF;
+    border-radius: 1em;
+    margin: 1em;
+ }
+
+ #derecha{
+    height: 150px;
+    width: 17%;
+    float: right;  
+    background-color: #DC143C;
+    border-radius: 1em;
+    margin: 1em;
+ }
+ #contenido{
+    height: 100%;
+    width: 100%;
+    position: relative;
+ }
+ #contizquierdo{
+    height: 100%;
+    width: 186px;
+    float: left;
+    background-color:#D2691E;
+    border-radius: 1em;
+    margin: 1em;
+ }
+ #contderecho{
+    height: 100%;
+    width: 61%;
+    background-color:#9999ff;
+    border-radius: 1em;
+    margin: 1em;
+    float: left;
 }
 
-.nav-div{
-    background-color: #3F51B5;
+ header{
+    width: 100%;
+    background-color:#000066;
+    position: fixed;
+    z-index: 100;
+ }
+
+ nav{
+    overflow: hidden;
+    background-color: #000066;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+ }
+
+ nav ul{
+    list-style: none;
+    overflow: hidden;
+ }
+
+ nav ul li{
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 1em;
+ }
+
+ nav ul li a{
+    display: block;
+    padding: 15px;
+    color:#00FFFF ;
+    text-decoration: none;      
+ }
+
+ nav ul li:hover{
+    background-color: #3ead47;
+ }
+
+ #menu2 ul{
+    list-style-type:  none;
+    margin: 10px;
+    padding: 10px;
+    width: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+    position:auto;
+ }
+
+ #menu2 ul li{
+   text-align: center;
+   background-color: #000066
+   
+   
+   }
+
+ #menu2 ul li a{
+    color: #ccc;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: ruby-text;
+    padding: 10px 10px 10px 10px 10px;
+    
+ 
+ 
+ 
+   }
+
+ #menu2 ul li a:hover{
+    background-color: #3ead47;
+    border-left: 10px solid #333;
+    color: #fff;
+ }
+
+ .tabs{
+    display: none;
+ }
+
+ .log{
+    width: 50px;
+    float: left;
+ }
+
+.logo_principla{
+    float: left;
+    padding: 10px;
 }
 
+.buscar{
+    background-color: #0d1842;
+    height: 30px;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.iconos{
+    border-radius: 1em;
+    display: none;
+    width: 186px;
+    height: 150px;
+}
+
+iframe {
+    height: 150px;
+    width: 220px;
+}
+
+.opcion{
+    display: none;
+}
+
+.written{
+   width: 100%;
+}
+
+.button {
+   background-color: forestgreen;/*green*/
+   border: none;
+   color: white;
+   padding: 15px 32px ;
+   
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
+
+#map {
+   height: 150px;
+   width: 100%;
+}
